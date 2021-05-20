@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Reaviva_Me.Domain
+namespace ReavivaMe.Infra
 {
     public class Class1
     {

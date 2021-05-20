@@ -12,7 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace Reaviva_Me.Api
+namespace ReavivaMe.Api
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace Reaviva_Me.Api
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Reaviva_Me.Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ReavivaMe.Api", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace Reaviva_Me.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Reaviva_Me.Api v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ReavivaMe.Api v1"));
             }
 
             app.UseHttpsRedirection();

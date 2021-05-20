@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Reaviva_Me.Api
+namespace ReavivaMe.Api
 {
     public class Program
     {

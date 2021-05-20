@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Reaviva_Me.Api.Controllers
+namespace ReavivaMe.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

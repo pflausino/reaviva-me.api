@@ -1,6 +1,6 @@
 using System;
 
-namespace Reaviva_Me.Api
+namespace ReavivaMe.Api
 {
     public class WeatherForecast
     {

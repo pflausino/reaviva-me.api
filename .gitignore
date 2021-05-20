@@ -477,3 +477,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 src/Reaviva-Me.Api/appsettings.json
+src/ReavivaMe.Api/appsettings.json

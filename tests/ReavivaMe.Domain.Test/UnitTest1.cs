@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Reaviva_Me.Api.Test
+namespace ReavivaMe.Domain.Test
 {
     public class UnitTest1
     {
